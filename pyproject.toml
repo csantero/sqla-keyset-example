@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sqlakeyset-example"
+version = "0.1.0"
+description = ""
+authors = ["Chris Santero <csantero@interos.ai>"]
+readme = "README.md"
+packages = [{include = "sqlakeyset_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.18"
+sqlakeyset = "^2.0.1691149549"
+psycopg = "^3.1.10"
+greenlet = "^2.0.2"
+mypy = "^1.5.1"
+sqlalchemy-utils = "^0.41.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
